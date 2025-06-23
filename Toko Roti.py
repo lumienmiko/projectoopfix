@@ -1,4 +1,5 @@
 #Kelompok13
+#Anggota : Miko,Estu,Hammam,Jinan
 from abc import ABC, abstractmethod
 
 # Interface produksi
