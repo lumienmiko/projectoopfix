@@ -123,8 +123,8 @@ def tambah_produk():
     kode = input("Kode Produk: ")
     bahan_baku = {}
     while True:
-        bahan = input("Masukkan nama bahan (atau 'done' untuk selesai): ")
-        if bahan.lower() == 'done': break
+        bahan = input("Masukkan nama bahan (atau 'y' untuk lewati): ")
+        if bahan.lower() == 'y': break
         jumlah = input(f"Jumlah {bahan}: ")
         bahan_baku[bahan] = jumlah
     biaya = int(input("Biaya produksi per pcs: "))
